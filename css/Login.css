@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align:none;
+}
+
+/*-------Header section--------*/
+header{
+    height:65px;
+    background:black;
+    width: 100%;
+    z-index: 12;
+	position: fixed;
+	top: 0px;
+}
+
+/*-------Header section- company name---------*/
+.logo{
+    float: right;
+    line-height: 60px;
+}
+
+.logo1{
+	width:65px;
+	height:65px; 
+	z-index: 12;
+    position: fixed;
+    right:400px;
+    border-radius: 50%;	
+}
+
+.logo label{
+	margin-right:15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial Rounded MT,Bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/*-------Header section-navigation bar---------*/
+nav{
+    width:920px;
+	float: left;
+    line-height: 60px;
+	background-color: black;
+	
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial Rounded MT,Bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 15px;
+	color: #fff;
+	
+}
+
+nav a:hover{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*---------Banner section---------*/
+.banner-area{
+    width: 100%;
+    height: 220px;
+    position: sticky;
+    top: 50px;
+   	background-color: #333;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2{
+	padding-top: 4%;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+    text-transform: uppercase;
+	color:white;
+}
+
+/*------Content-descriptions--------*/
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    background-image: url(../img/LoginBack.jpg);
+    background-size: cover;
+    height: 1200px;
+}
+
+
+    .contain {
+        margin-top: 100px;
+        margin-bottom: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1px;
+        background-color: rgba(0, 0, 0, 0.699);
+        border: 4px solid orange;
+        border-radius: 25px;
+        padding: 20px;
+        width: 53%;
+        position: relative;
+        box-shadow: 0 32px 64px 0 black, 0 6px 20px black;
+    }
+    .regimg1{
+        height:70px;
+        width:70px;
+        border-radius: 50%;
+    }
+    
+    .up{
+        margin-top: 50px;
+        margin-left: 0px;
+        font-size: 20px;
+        position: relative;
+    }
+    
+    .down{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left:0px;
+        font-size: 20px;
+        position: relative;
+    }
+    
+    .heading h1{
+        font-family: Arial Rounded MT,Bold;
+        font-size: 40px;
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+    }
+    
+    .label{
+        font-family: Arial Rounded MT,Bold;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+    }
+
+    input:hover{
+        background-color:white;
+        color: black;
+    }
+    
+    
+    .txtbox {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 10px;
+        background-color:black;
+        box-shadow: 0 8px 16px 0 black, 0 6px 20px black;
+        color:white;
+        font-size: 20px;
+        border:2px solid orange;
+        opacity: 0.8;
+        letter-spacing: 2px;
+      }
+    
+      .submit {
+        font-family: Arial Rounded MT,Bold;
+        font-size: 20px;
+        font-weight: 900;
+        background-color: orange;
+        border:2px solid black;
+        border-radius: 10px;
+        color:black;
+        box-shadow: 0 8px 16px 0 black, 0 6px 20px black;
+        padding: 20px 100px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+       
+      }
+      .submit:hover{
+          background-color: white;
+          color: black;
+      }
+    
+    .connect{
+        font-family: Arial Rounded MT,Bold;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .facebook{
+        background-color: rgb(67, 67, 255);
+        border: 2px solid white;
+        color: white;
+        border-radius: 10px;
+        padding-top: 25px;
+        padding-left: 18px;
+        padding-bottom: 10px;
+        padding-right: 18px;
+        margin: 0px;
+    }
+    
+    .twitter{
+        background-color: rgb(57, 192, 255);
+        border: 2px solid white;
+        color: white;
+        border-radius: 10px;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        margin: 50px;
+    }
+    
+    .google-plus{
+        background-color: rgb(252, 34, 34);
+        border: 2px solid white;
+        color: white;
+        border-radius: 10px;
+        padding-top: 25px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        margin: 0px;
+    }
+/* footer */
+
+footer{
+	position: relative;
+	bottom: 0;
+}
+
+
+.footer-distributed{
+	background-color:black;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 30px 0px 60px 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 33%;
+}
+
+.footer-distributed h3{
+	color:  white;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+    border-radius: 50%;
+}
+
+.footer-distributed h3 span{
+	color:  #ff7c10;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	padding: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a:hover{
+	color: #ff7c10;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 36.5%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ff7c10;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+	background-color:orange;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

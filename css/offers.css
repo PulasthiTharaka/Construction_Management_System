@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align:center;
+}
+
+/*-------Header section--------*/
+header{
+    height:65px;
+    background:black;
+    width: 100%;
+    z-index: 12;
+	position: fixed;
+	top: 0px;
+}
+
+/*-------Header section- company name---------*/
+.logo{
+    float: right;
+    line-height: 60px;
+}
+
+.logo1{
+	width:65px;
+	height:65px; 
+	z-index: 12;
+    position: fixed;
+	right:400px;
+	border-radius: 50%;	
+}
+
+.logo label{
+	padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial Rounded MT,Bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/*-------Header section-navigation bar---------*/
+nav{
+    width:920px;
+	float: left;
+    line-height: 60px;
+	background-color: black;
+	
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial Rounded MT,Bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+	padding: 17px;
+	color: #fff;
+	
+}
+
+nav a:hover{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.active{
+	background-color: orange;
+	color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*-------Footer-------*/
+footer{
+	position: relative;
+	bottom: 0;
+}
+
+.footer-distributed{
+	background-color:black;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 30px 0px 60px 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 33%;
+}
+
+.footer-distributed h3{
+	color:  white;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	border-radius: 50%;
+}
+
+.footer-distributed h3 span{
+	color:  #ff7c10;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	padding: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a:hover{
+	color: #ff7c10;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 36.5%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ff7c10;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+	background-color:orange;
+}
+
+/*Slider*/
+.slider{
+	top: 0px;
+	position: relative;
+	width: 100%;
+	height:450px;
+}
+
+.fade{
+	animation:fading 4s infinite;
+	width: 100%;
+	height: 450px;
+}
+
+@keyframes fading{0%{opacity:1}10%{opacity:1}}
+
+/*Main Area*/
+
+.mainDiv img{
+    height: 1600px;
+    width: 100%;
+	position: relative;
+	top: 0px;
+}
+
+/*Area 1*/
+.area1{
+	background-color: rgba(0, 0, 0, 0.600);
+	top: 550px;
+	left: 50px;
+	width: 1500px;
+	height: 400px;
+	position: absolute;
+	border: 3px solid white;
+	border-radius: 10px;
+}
+
+.area1 h1{
+	left: 70px;
+	top: 70px;
+	position: absolute;
+	color: red;
+	font-size: 40px;
+	font-family: sans-serif;
+	animation: zoomText 1s infinite;
+	background-color: rgba(255, 255, 255, 0.650);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.area1 img{
+	left: 48px;
+	top: 48px;
+	width: 550px;
+	height: 300px;
+	position: absolute;
+}
+
+.area1 h2{
+	left: 720px;
+	top: 75px;
+	position: absolute;
+	color: yellow;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 4px;
+}
+
+.area1 h2:hover{
+	color:orange;
+	transform: scale(1.25);
+	transition: transform .5s;
+	cursor: pointer;
+}
+
+.area1 p{
+	left: 650px;
+	right: 30px;
+	top: 170px;
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 40px;
+}
+
+.area1 h3{
+	left: 1200px;
+	top: 350px;
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	font-family: 'Peddana', serif;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+/*Area 2*/
+.area2{
+	background-color: rgba(0, 0, 0, 0.600);
+	top: 1050px;
+	right: 50px;
+	width: 1500px;
+	height: 400px;
+	position: absolute;
+	border: 3px solid white;
+	border-radius: 10px;
+}
+
+.area2 h1{
+	left: 70px;
+	top: 70px;
+	position: absolute;
+	color: red;
+	font-size: 40px;
+	font-family: sans-serif;
+	animation: zoomText 1s infinite;
+	background-color: rgba(255, 255, 255, 0.650);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.area2 img{
+	left: 48px;
+	top: 48px;
+	width: 550px;
+	height: 300px;
+	position: absolute;
+}
+
+.area2 h2{
+	left: 760px;
+	top: 65px;
+	position: absolute;
+	color: yellow;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 4px;
+}
+
+.area2 h2:hover{
+	color:orange;
+	transform: scale(1.25);
+	transition: transform .5s;
+	cursor: pointer;
+}
+
+.area2 p{
+	left: 640px;
+	right: 30px;
+	top: 150px;
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 40px;
+}
+
+.area2 h3{
+	left: 1200px;
+	top: 350px;
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	font-family: 'Peddana', serif;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+/*Area 3*/
+.area3{
+	background-color: rgba(0, 0, 0, 0.600);
+	top: 1550px;
+	left: 50px;
+	width: 1500px;
+	height: 400px;
+	position: absolute;
+	border: 3px solid white;
+	border-radius: 10px;
+}
+
+.area3 h1{
+	left: 70px;
+	top: 70px;
+	position: absolute;
+	color: red;
+	font-size: 40px;
+	font-family: sans-serif;
+	animation: zoomText 1s infinite;
+	background-color: rgba(255, 255, 255, 0.650);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.area3 img{
+	left: 48px;
+	top: 48px;
+	width: 550px;
+	height: 300px;
+	position: absolute;
+}
+
+.area3 h2{
+	left: 820px;
+	top: 65px;
+	position: absolute;
+	color: yellow;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 4px;
+}
+
+.area3 h2:hover{
+	color:orange;
+	transform: scale(1.25);
+	transition: transform .5s;
+	cursor: pointer;
+}
+
+.area3 p{
+	left: 640px;
+	right: 30px;
+	top: 150px;
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 40px;
+}
+
+.area3 h3{
+	left: 1200px;
+	top: 350px;
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	font-family: 'Peddana', serif;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+/*Glow Text*/
+
+@keyframes zoomText {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.glow1{
+	position: absolute;
+	top: 650px;
+	right:90px;
+	font-size:70px;
+	font-family: 'Oleo Script', cursive;
+	color: yellow;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: black;
+	-webkit-animation: glow 0.25s ease-in-out infinite alternate;
+	-moz-animation: glow 0.25s ease-in-out infinite alternate;
+	animation: glow 0.25s ease-in-out infinite alternate, zoomText 1s infinite;
+  }
+
+  .glow2{
+	position: absolute;
+	top: 1150px;
+	left:90px;
+	font-size:70px;
+	font-family: 'Oleo Script', cursive;
+	color: yellow;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: black;
+	-webkit-animation: glow 0.25s ease-in-out infinite alternate;
+	-moz-animation: glow 0.25s ease-in-out infinite alternate;
+	animation: glow 0.25s ease-in-out infinite alternate, zoomText 1s infinite;
+  }
+
+  .glow3{
+	position: absolute;
+	top: 1650px;
+	right:90px;
+	font-size:70px;
+	font-family: 'Oleo Script', cursive;
+	color: yellow;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: black;
+	-webkit-animation: glow 0.25s ease-in-out infinite alternate;
+	-moz-animation: glow 0.25s ease-in-out infinite alternate;
+	animation: glow 0.25s ease-in-out infinite alternate, zoomText 1s infinite;
+  }
+  
+  @-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px rgb(255, 234, 44), 0 0 20px rgb(255, 234, 44), 0 0 30px #ff0000, 0 0 40px#ff0000, 0 0 50px#ff0000, 0 0 60px#ff0000, 0 0 70px#ff0000;
+	}
+	
+	to {
+	  text-shadow: 0 0 20px rgb(255, 234, 44), 0 0 30px#ff0000, 0 0 40px  #ff0000, 0 0 50px  #ff0000, 0 0 60px  #ff0000, 0 0 70px #ff0000, 0 0 80px  #ff0000;
+	}
+  }
+

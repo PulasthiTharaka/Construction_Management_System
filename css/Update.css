@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align:none;
+}
+
+.logo1{
+	width:65px;
+	height:65px; 
+	z-index: 12;
+    position: fixed;
+	right:400px;
+	border-radius: 50%;
+	
+}
+
+/*-------Header section--------*/
+header{
+    height:65px;
+    background:black;
+    width: 100%;
+    z-index: 12;
+	position: fixed;
+	top: 0px;
+}
+
+/*-------Header section- company name---------*/
+.logo{
+    float: right;
+    line-height: 60px;
+}
+
+.logo label{
+	margin-right:15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial Rounded MT,Bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/*-------Header section-navigation bar---------*/
+nav{
+    width:920px;
+	float: left;
+    line-height: 60px;
+	background-color: black;
+	
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial Rounded MT,Bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 15px;
+	color: #fff;
+	
+}
+
+nav a:hover{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*---------Banner section---------*/
+.banner-area{
+    width: 100%;
+    height: 300px;
+    position: sticky;
+    top: 60px;
+    background-image: url(../img/offersBack.jpg) ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2{
+	
+	padding-bottom:2%;
+	padding-top: 3%;
+	font-size: 100px;
+    font-family: Arial Rounded MT,Bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ff7c10;
+    position: relative;
+    text-shadow: 10px 10px  black;
+    width:100%;
+}
+
+/*------Content-descriptions--------*/
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    background:#2C3539;
+    height: 1400px;
+}
+
+.content-area h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-area p{
+    padding: 2% 0;
+    font-family: marienda;
+    line-height: 30px;
+}
+
+/*form area */
+.div00{
+	width:100%;
+    height:1400px;
+	}
+
+.Slide1 {
+    display:none;
+    width:100%;
+    height:1400px;
+    border: none;
+    position: absolute;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+     }
+
+.regimg1{
+	height:100px;
+	width:100px;
+    border-radius: 50%;
+    margin-left: 47%;
+    margin-top: -3%;
+}
+.h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 4px 4px  black;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 5%;
+    left: 25%;
+}
+
+.div1{
+    width: 95%;
+    height: 73%;
+    position: absolute;
+    top:13%;
+    left:2%;
+	border-radius:20px;
+}
+
+
+.div2{
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    background-color: rgba(0, 0, 0, 0.685);
+    border:2px solid orangered;
+	box-shadow: 0 16px 32px 0 black, 0 12px 40px black;
+    border-radius:20px;
+}
+
+
+.div3{
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    background-color: rgba(0, 0, 0, 0.685);
+    right: 0%;
+    border-radius:20px;
+    border:2px solid orangered;
+    box-shadow: 0 16px 32px 0 black, 0 12px 40px black;
+    border-radius:20px;
+}
+
+.reg1{
+    font-size: 50px;
+	font-family:Times New Roman;
+	font-weight:900;
+	color:orangered;
+    position: absolute;
+    left:32%;
+    top:5%;  
+
+}
+
+.reg2{
+    font-size: 50px;
+	font-family:Times New Roman;
+	font-weight:900;
+	color:orangered;
+    position: absolute;
+    right:32%;
+    top:5%;  
+
+}
+
+
+.name{
+	font-size:20px;
+	font-family:Times New Roman;
+	font-weight:900;
+	color:white;
+    width: 400px;
+    position: absolute;
+    left:38%;
+   
+}
+
+.form{
+	width:500px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	font-size:15px;
+	background-color:rgba(0, 0, 0, 0.644);
+	color:white;
+    border-left:20px solid orangered;
+    border-right:20px solid orangered;
+    border-bottom: 1px solid orangered;
+	box-shadow: 0 8px 16px 0 black, 0 6px 20px black;
+	padding:18px;
+	border-radius: 10px;
+    letter-spacing: 2px;
+    position: absolute;
+    left:20%;
+    
+}
+
+.form:hover{
+	transform: scale(1.1);
+    transition: transform .8s;
+}
+
+.last{
+	color:black;
+	background-color: orangered;
+	text-align:center;
+	padding:25px 80px;
+	box-shadow: 0 8px 16px 0 black, 0 6px 20px black;	
+	border: none;
+	border-radius: 10px;	
+	font-size:18px;
+    font-family: Arial Rounded MT,Bold ;
+    position: absolute;
+    top:89%;
+    left:29%;
+    width: 800px;
+}
+
+.last:hover{
+	transform: scale(1.08);
+    transition: transform .8s;
+    color:orangered;
+	background-color: white;
+}
+
+
+
+
+/* footer */
+
+footer{
+	position: relative;
+	bottom: 0;
+}
+
+
+.footer-distributed{
+	background-color:black;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 30px 0px 60px 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 33%;
+}
+
+.footer-distributed h3{
+	color:  white;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #ff7c10;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a:hover{
+	color: #ff7c10;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ff7c10;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+	background-color:orange;
+}
+

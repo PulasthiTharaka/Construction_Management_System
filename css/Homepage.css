@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align:none;
+}
+
+.logo1{
+	width:65px;
+	height:65px; 
+	z-index: 12;
+    position: fixed;
+	right:400px;
+	border-radius:50% ;
+	
+}
+
+/*-------Header section--------*/
+header{
+    height:65px;
+    background:black;
+    width: 100%;
+    z-index: 12;
+	position: fixed;
+	top: 0px;
+}
+
+/*-------Header section- company name---------*/
+.logo{
+    float: right;
+    line-height: 60px;
+}
+
+.logo label{
+	padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial Rounded MT,Bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/*-------Header section-navigation bar---------*/
+nav{
+    width:920px;
+	float: left;
+    line-height: 60px;
+	background-color: black;
+	
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial Rounded MT,Bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+	padding: 17px;
+	color: #fff;
+	
+}
+
+nav a:hover{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.active{
+	background-color: orange;
+	color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*---------Banner section---------*/
+.banner-area{
+    width: 100%;
+    height: 300px;
+    position: sticky;
+    top:6%;
+    background-image: url(../img/7.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2{
+	
+	padding-top: 5%;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+    text-transform: uppercase;
+	color:white;
+	text-shadow: 4px 4px  black;
+	
+
+	
+}
+
+
+/*------Content-descriptions--------*/
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 50px;
+	background:rgb(54, 52, 49);
+	color:white;
+    height:2600px;
+}
+
+.content-area h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    
+}
+
+.content-area p{
+    padding: 2% ;
+    font-family:Arial, Helvetica, sans-serif;
+	text-align: none;
+}
+
+.para{
+	padding: 2% ;
+    font-family:Arial, Helvetica, sans-serif;
+	text-align: none;
+	font-size:22px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+/*------Content-SliderPhoto-------*/
+
+
+.Slide {
+	display:none;
+	width:850px;
+	height:500px;
+	border-radius:15px ;
+	box-shadow: 0 8px 16px 0 black, 0 6px 20px black;	
+	border: none;
+	}
+
+.slides{
+	display:table;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	display:flex;
+	padding-top:50px;
+
+}
+
+.slides1{
+	display:table-cell;
+	padding:16px;
+	width: 100%;
+	flex:1;
+	margin:1.9%;
+	background-color:rgb(54, 52, 49);
+	text-align: center;
+}
+.slides1  h1{
+	font-size:80px;
+	top:40%;
+	padding: 10%;
+	text-shadow: 5px 5px  black;	
+	border: none;
+}
+
+/*------Login-------*/
+
+.buttn1{
+	
+	color:black;
+	background-color: #ff7c10;
+	text-align:center;
+	padding:15px 20px;
+	box-shadow: 0 8px 16px 0 black, 0 6px 20px black;	
+	border: none;
+	border-radius: 5px;	
+	font-size:18px;
+	font-family: Arial Rounded MT,Bold ;
+
+}
+
+a button:hover{
+	background-color:white;
+	color:black;
+}
+
+a button:active{
+	background-color: darkgreen;
+}
+
+.buttn2{
+	text-decoration: none;
+}
+
+.login{
+	width: 100%;
+	display: table;
+	flex-wrap: wrap;
+	justify-content: center;
+	display:flex;
+	padding-top:50px;
+}
+
+.login1{
+	width: 100%;
+	display: table-cell;
+	flex:1;
+
+}
+
+.login2{
+	width: 900px;
+	height: 520px;
+	opacity: 0.3;
+	box-shadow: 0 8px 16px 0 black, 0 6px 20px black;	
+	border: 8px solid black;
+	border-radius:10px;
+}
+
+.login3{
+	
+	top:78.5%;
+	left:63%;
+	text-align: center;
+	position: absolute;
+
+}
+
+.login3 h3{
+	color:white;
+	font-size: 20px;
+	font-family: Arial Rounded MT,Bold ;
+}
+
+.login3 h4{
+	color:white;
+	font-size: 20px;
+	font-family: Arial Rounded MT,Bold ;
+}
+
+.login4{
+	width: 100%;
+	display: table;
+	flex-wrap: wrap;
+	justify-content: center;
+	display:flex;
+	padding-top:50px;
+}
+
+.login5{
+	width: 100%;
+	display: table-cell;
+	flex:1;
+}
+.imgleft{
+	width: 400px;
+	height: 200px;
+	box-shadow: 0 8px 16px 0  black, 0 6px 20px  black;	
+	border: none;
+	border-radius: 10px;
+}
+
+
+/*-------Footer-------*/
+footer{
+	position: relative;
+	bottom: 0;
+}
+
+.footer-distributed{
+	background-color:black;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 30px 0px 60px 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 33%;
+}
+
+.footer-distributed h3{
+	color:  white;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #ff7c10;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	padding: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a:hover{
+	color: #ff7c10;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 36.5%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ff7c10;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+	background-color:orange;
+}
+
+
+
+
